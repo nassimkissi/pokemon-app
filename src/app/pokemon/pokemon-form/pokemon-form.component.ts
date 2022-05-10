@@ -4,7 +4,7 @@ import { PokemonService } from 'src/app/pokemon.service';
 import { Pokemon } from '../pokemon';
 
 @Component({
-  selector: 'app-pokemon-form',
+  selector: 'pokemon-form',
   templateUrl: './pokemon-form.component.html',
   styleUrls: ['./pokemon-form.component.css']
 })
