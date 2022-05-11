@@ -8,7 +8,9 @@ import { POKEMONS } from './pokemon/mock-pokemon-list';
 export class InMemoryDataService implements InMemoryDbService{
 
   createDb(){
-    return { POKEMONS }; 
+    // reasign constant value when the constant is locate at the exterior file
+    const pokemons = POKEMONS
+    return { pokemons }; 
   }
   constructor() { }
 }
