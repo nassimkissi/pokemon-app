@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { PokemonService } from 'src/app/pokemon.service';
+import { PokemonService } from 'src/app/pokemon/pokemon.service';
 import { Pokemon } from '../pokemon';
 
 @Component({
@@ -10,7 +10,7 @@ import { Pokemon } from '../pokemon';
     <p *ngIf="pokemon" class="center">
       <img [src]="pokemon.picture">
     </p>
-    <app-pokemon-form *ngIf="pokemon" [pokemon]="pokemon"></app-pokemon-form>
+    <pokemon-form *ngIf="pokemon" [pokemon]="pokemon"></pokemon-form>
   `,
   styles: [
   ]
