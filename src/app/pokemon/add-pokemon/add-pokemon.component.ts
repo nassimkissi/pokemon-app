@@ -5,7 +5,7 @@ import { Pokemon } from '../pokemon';
   selector: 'app-add-pokemon',
   template: `
     <h2 class="center">Ajouter un pokémon</h2>
-    <pokemon-form [pokemon]="pokemon" ></pokemon-form>
+    <pokemon-form [pokemon]="pokemon"></pokemon-form>
   `,
   styles: [
   ]
